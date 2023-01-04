@@ -1,4 +1,4 @@
-# ML-project-Depok-houseprice-prediction
+# Depok City House Price Prediction
 
 
 ## Introduction
