@@ -4,5 +4,5 @@
 /Scripts
 pyvenv.cfg
 /share
-xgboost/
-etc/
+/xgboost
+/etc
