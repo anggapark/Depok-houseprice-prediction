@@ -1,8 +1,11 @@
 # created by virtualenv automatically
 
-/Lib
-/Scripts
-pyvenv.cfg
-/share
-xgboost/vcomp140.dll
-etc/jupyter/nbconfig/notebook.d
+Lib/
+Scripts/
+share/
+etc/
+xgboost/
+.ipynb_checkpoints/
+*.cfg
+*.dll
+*.d
