@@ -27,7 +27,7 @@ Data didapatkan dengan melakukan web scraping pada website www.lamudi.co.id deng
 - jumlah lahan parkir
 - jumlah lantai
 - Fully Furnished
-- Fasilitas keamanan
+- Fasilitas keamanan24jam
 - Fasilitas kolam renang
 - Fasilitas taman
 - Fasilitas balcony
