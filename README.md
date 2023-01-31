@@ -32,3 +32,15 @@ Data didapatkan dengan melakukan web scraping pada website www.lamudi.co.id deng
 - Fasilitas taman
 - Fasilitas balcony
 - Fasilitas Pendingin ruangan (AC)
+
+
+## Data Cleaning
+Setelah di scraping, data perlu dibersihkan agar dapat dianalisis dan dilakukan prediksi, yaitu:
+- Rename nama kolom agar mudah dibaca
+- Menghilangkan baris yang hanya terdapat URL
+- Menghilangkan kolom fully_furnished, kolam_renang, dan jumlah_lantai
+- Menyederhanakan nama lokasi menjadi kecamatan
+- Memperbaiki tipe data pada kamar, kamar_mandi, dan lahan_parkir
+- Input missing value pada lahan_parkir
+- Menghilangkan 'Rp' dan mengganti tipe data pada harga (ex: Rp 130.000.000 menjadi 130000000)
+- Menghilangkan baris duplikat
