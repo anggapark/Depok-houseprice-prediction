@@ -8,7 +8,7 @@ Created on Mon Jan 30 06:21:47 2023
 import pandas as pd
 import numpy as np
 
-path = "../ML-project-Depok-houseprice-prediction/"
+path = "C:/Users/User/LatihanData/ML-project-Depok-houseprice-prediction/"
 df = pd.read_csv(path + "raw_df.csv")
 
 df = df.rename(
@@ -31,7 +31,7 @@ missing_idx = df[(df['harga'].isnull())].index
 df = df.drop(index=missing_idx)
 
 # fully_furnished, kolam_renang missing, dan jumlah_lantai memiliki missing data >90%, 
-df = df.drop(columns=["fully_furnished", "kolam_renang", "jumlah_lantai"], axis=1)
+df = df.drop(columns=["fully_furnished", "kolam_renang", "jumlah_lantai"], axis=1).reset_index(drop=True)
 
 # menyederhanakan lokasi
 df["nama"] = df["nama"].apply(lambda x: x.lower())
@@ -39,19 +39,31 @@ df["lokasi"] = df["lokasi"].apply(lambda x: x.lower())
 
 def simplified_location(df):
     """
-    fungsi ini untuk menyederhanakan nilai pada kolom lokasi
-    dengan mengambil nama kecamatan
+    fungsi ini untuk mengambil nama kecamatan dari
+    value lokasi untuk mempermudah analisis
     """
     if "beji" in df:
         return "beji"
     elif "tanah baru" in df:
         return "beji"
+    elif "kukusan" in df:
+        return "beji"
+    elif "pondok cina" in df:
+        return "beji"
+    elif "kemiri" in df:
+        return "beji"
+    
     elif "bojongsari" in df:
         return "bojongsari"
-    elif "pondokpetir" in df:
+    elif "pondok petir" in df:
         return "bojongsari"
     elif "curug" in df:
         return "bojongsari"
+    elif "serua" in df:
+        return "bojongsari"
+    elif "duren" in df:
+        return "bojongsari"
+    
     elif "cilodong" in df:
         return "cilodong"
     elif "jatimulya" in df:
@@ -60,20 +72,63 @@ def simplified_location(df):
         return "cilodong"
     elif "kalibaru" in df:
         return "cilodong"
+    elif "sukamaju" in df:
+        return "cilodong"
+    elif "rajeg" in df:
+        return "cilodong"
+    elif "gani" in df:
+        return "cilodong"
+    elif "kemang" in df:
+        return "cilodong"
+    elif "boulevrd" in df:
+        return "cilodong"
+    
     elif "cimanggis" in df:
         return "cimanggis"
-    elif "cimanggis" in df:
+    elif "kelapa dua" in df:
         return "cimanggis"
     elif "tugu" in df:
         return "cimanggis"
+    elif "cisalak" in df:
+        return "cimanggis"
+    elif "harjamukti" in df:
+        return "cimanggis"
+    elif "mekarsari" in df:
+        return "cimanggis"
+    elif "cibubur" in df:
+        return "cimanggis"
+    
     elif "cinere" in df:
         return "cinere"
+    elif "pangkalan jati" in df:
+        return "cinere"
+    elif "gandul" in df:
+        return "cinere"
+    elif "andara" in df:
+        return "cinere"
+    
     elif "cipayung" in df:
         return "cipayung"
     elif "citayam" in df:
         return "cipayung"
+    elif "bulak" in df:
+        return "cipayung"
+    elif "ratujaya" in df:
+        return "cipayung"
+    elif "serong" in df:
+        return "cipayung"
+    
     elif "limo" in df:
         return "limo"
+    elif "krukut" in df:
+        return "limo"
+    elif "grogol" in df:
+        return "limo"
+    elif "maruyung" in df:
+        return "limo"
+    elif "meruyung" in df:
+        return "limo"
+    
     elif "pancoran mas" in df:
         return "pancoran mas"
     elif "rangkapan jaya" in df:
@@ -82,6 +137,9 @@ def simplified_location(df):
         return "pancoran mas"
     elif "mampang" in df:
         return "pancoran mas"
+    elif "nuvo" in df:
+        return "pancoran mas"
+    
     elif "sawangan" in df:
         return "sawangan"
     elif "bedahan" in df:
@@ -90,25 +148,77 @@ def simplified_location(df):
         return "sawangan"
     elif "cinangka" in df:
         return "sawangan"
+    elif "pasir putih" in df:
+        return "sawangan"
+    elif "desari" in df:
+        return "sawangan"
+    
     elif "sukmajaya" in df:
         return "sukmajaya"
     elif "baktijaya" in df:
         return "sukmajaya"
+    elif "grand depok city" in df:
+        return "sukmajaya"
+    elif "gdc" in df:
+        return "sukmajaya"
+    elif "juanda" in df:
+        return "sukmajaya"
+    elif "tirtajaya" in df:
+        return "sukmajaya"
+    elif "abadi" in df:
+        return "sukmajaya"
+    elif "mekar" in df:
+        return "sukmajaya"
+    elif "japat" in df:
+        return "sukmajaya"
+    
     elif "tapos" in df:
         return "tapos"
     elif "cilangkap" in df:
         return "tapos"
+    elif "sukatani" in df:
+        return "tapos"
+    elif "leuwi" in df:
+        return "tapos"
+    elif "cimpaeun" in df:
+        return "tapos"
+    elif "raffless" in df:
+        return "tapos"
     
+    elif "depok" in df:
+        return "depok"
+
     else:
         return df
     
 df['lokasi'] = df['lokasi'].apply(simplified_location)
-    
-df['lokasi'].value_counts()
-    
-    
-    
-    
-    
-    
-    
+
+# depok_idx = df[df['lokasi']=="depok"].index
+# pick_name = df.iloc[depok_idx, ]
+# df['lokasi'].iloc[depok_idx, ] = pick_name['nama']
+
+# df['lokasi'] = df['lokasi'].apply(simplified_location)
+
+# loc = df['lokasi'].value_counts()
+
+# missing value diinput 'no' menandakan tidak adanya fasilitas
+df['AC'] = df['AC'].fillna("no")
+df['balcony'] = df['balcony'].fillna("no")
+df['keamanan24jam'] = df['keamanan24jam'].fillna("no")    
+df['taman'] = df['taman'].fillna("no")    
+
+# input nilai mayoritas pada lahan parkir
+df['lahan_parkir'] = df['lahan_parkir'].fillna(1.0)
+
+# hapus row yang terdapat missing value
+df = df.dropna()
+
+# hapus kolom yang tidak dibutuhkan
+df = df.drop(columns=['url','nama'], axis=1)
+
+# hapus Rp dan ubah tipe data pada harga
+df['harga'] = df['harga'].str.split(" ", expand=True)[1]
+df['harga'] = df['harga'].str.replace(".", "").astype("int64")
+
+# ekspor data hasil cleaning
+df.to_csv(path + "clean_df.csv", index=False)
