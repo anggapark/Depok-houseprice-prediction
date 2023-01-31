@@ -210,6 +210,11 @@ df['taman'] = df['taman'].fillna("no")
 # input nilai mayoritas pada lahan parkir
 df['lahan_parkir'] = df['lahan_parkir'].fillna(1.0)
 
+# memperbaiki tipe data
+df['kamar_tidur'] = df['kamar_tidur'].astype('int64')
+df['kamar_mandi'] = df['kamar_mandi'].astype('int64')
+df['lahan_parkir'] = df['lahan_parkir'].astype('int64')
+
 # hapus row yang terdapat missing value
 df = df.dropna()
 
