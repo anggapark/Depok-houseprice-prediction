@@ -220,5 +220,11 @@ df = df.drop(columns=['url','nama'], axis=1)
 df['harga'] = df['harga'].str.split(" ", expand=True)[1]
 df['harga'] = df['harga'].str.replace(".", "").astype("int64")
 
+# periksa dan hapus row yang duplikat
+var = df.drop(columns=['harga'], axis=1)
+dup_idx = var[var.duplicated()].index
+
+df = df.drop(index=dup_idx).reset_index(drop=True)
+
 # ekspor data hasil cleaning
 df.to_csv(path + "clean_df.csv", index=False)
