@@ -1,4 +1,4 @@
-lokasi,harga,kamar_tidur,kamar_mandi,luas_bangunan,rumah_luas_lahan,keamanan24jam,taman,lahan_parkir,balcony,AC
+lokasi,harga,kamar_tidur,kamar_mandi,luas_bangunan,luas_lahan,keamanan24jam,taman,lahan_parkir,balcony,AC
 cimanggis,580000000,2,1,36.0,60.0,no,no,1,no,no
 cilodong,611000000,2,2,48.0,45.0,yes,yes,1,no,no
 depok,853000000,2,1,45.0,84.0,no,yes,1,no,no
