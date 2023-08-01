@@ -8,7 +8,8 @@ Created on Mon Jan 30 06:21:47 2023
 import pandas as pd
 import numpy as np
 
-path = "C:/Users/hi/LatihanData/Depok-houseprice-prediction/"
+# path = "C:/Users/hi/LatihanData/Depok-houseprice-prediction/"
+path = "/home/anggapark/ml/Depok-houseprice-prediction/"
 df = pd.read_csv(path + "raw_df.csv")
 
 df = df.rename(
@@ -43,6 +44,8 @@ df = df.drop(index=missing_idx)
 df = df.drop(
     columns=["fully_furnished", "kolam_renang", "jumlah_lantai"], axis=1
 ).reset_index(drop=True)
+
+df = df.drop(columns="lahan_parkir", axis=1).reset_index(drop=True)
 
 # menyederhanakan lokasi
 df["nama"] = df["nama"].apply(lambda x: x.lower())
@@ -220,13 +223,10 @@ df["balcony"] = df["balcony"].fillna("no")
 df["keamanan24jam"] = df["keamanan24jam"].fillna("no")
 df["taman"] = df["taman"].fillna("no")
 
-# input nilai mayoritas pada lahan parkir
-df["lahan_parkir"] = df["lahan_parkir"].fillna(1.0)
-
 # memperbaiki tipe data
 df["kamar_tidur"] = df["kamar_tidur"].astype("int64")
 df["kamar_mandi"] = df["kamar_mandi"].astype("int64")
-df["lahan_parkir"] = df["lahan_parkir"].astype("int64")
+# df["lahan_parkir"] = df["lahan_parkir"].astype("int64")
 
 # hapus row yang terdapat missing value
 df = df.dropna()
