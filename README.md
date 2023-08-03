@@ -83,7 +83,22 @@ Berdasarkan hasil analisis:
   - Random Forest Regression
 
 - Metric yang digunakan sebagai evaluasi model adalah Root Mean Squared Error (RMSE)
-- Dilakukan perbandingan ketiga perlakuan pada data, yaitu:
-  - membiarkan sisa outlier,
-  - menghilangkan outlier dengan metode ZScore, dan
-  - menghilangkan outlier dengan metode IQR.
+
+## Evaluation
+
+| Model                    | RMSE         |
+| ------------------------ | ------------ |
+| Linear Regression        | 5.259537e+08 |
+| Ridge Regression         | 4.857955e+08 |
+| Lasso Regression         | 5.259537e+08 |
+| RANSAC Regression        | 5.331511e+08 |
+| Random forest Regression | 4.182682e+08 |
+
+Dapat dilihat, model dengan nilai RMSE terbaik adalah Random Forest Regression dengan nilai RMSE 418268164.0264733.
+
+## Future Plan
+
+- Menggunakan standardscaler pada preprocessing dan dibandingkan dengan minmaxscaler yang dipakai saat ini.
+- Melakukan hyperparameter tuning pada model untuk mencari nilai RMSE yang lebih baik.
+- Deploy machine learning model dengan streamlit.
+- Membuat API untuk siapa saja yang ingin membuat aplikasi dengan machine learning model.
