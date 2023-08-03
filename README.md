@@ -50,8 +50,8 @@ Setelah di scraping, data perlu dibersihkan agar dapat dianalisis dan dilakukan 
 - Sebelum pemeriksaan outlier, data dibagi menjadi dua, yaitu train dan test dengan persentase 80 % dan 20 %
 - Ditemukannya outlier pada fitur kamar tidur, kamar mandi, luas bangunan, dan luas lahan.
 
-  - Mayoritas outlier diakibatkan oleh kesalahan input pada sumber data. Metode untuk mengatasi outlier jenis ini adalah dengan menganggap nilai tersebut sebagai missing value, sehingga diganti dengan nilai median. Nilai median digunakan karena tahan terhadap outlier dibanding dengan menggunakan mean.
-  - Outlier lainnya merupakan pencilan bukan hasil kesalahan input
+  - Mayoritas outlier diakibatkan oleh kesalahan input pada sumber data. Metode untuk mengatasi outlier ini pada projek ini adalah dengan menganggap nilai tersebut sebagai missing value, sehingga diganti dengan nilai median. Nilai median digunakan karena tahan terhadap outlier dibanding dengan menggunakan mean.
+  - Terdapat outlier lainnya yang merupakan pencilan, bukan hasil kesalahan input
 
 ## Data Analysis
 
