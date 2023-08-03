@@ -51,13 +51,7 @@ Setelah di scraping, data perlu dibersihkan agar dapat dianalisis dan dilakukan 
 - Ditemukannya outlier pada fitur kamar tidur, kamar mandi, luas bangunan, dan luas lahan.
 
   - Mayoritas outlier diakibatkan oleh kesalahan input pada sumber data. Metode untuk mengatasi outlier jenis ini adalah dengan menganggap nilai tersebut sebagai missing value, sehingga diganti dengan nilai median. Nilai median digunakan karena tahan terhadap outlier dibanding dengan menggunakan mean.
-  - Outlier lainnya merupakan pencilan bukan hasil kesalahan input, Sehingga akan dilakukan tiga perlakuan, yaitu:
-
-    - membiarkan sisa outlier,
-    - menghilangkan outlier dengan metode ZScore, dan
-    - menghilangkan outlier dengan metode IQR.
-
-    Hasil RMSE dari ketiga metode kemudian akan dilakukan perbandingan
+  - Outlier lainnya merupakan pencilan bukan hasil kesalahan input
 
 ## Data Analysis
 
@@ -68,6 +62,10 @@ Berdasarkan hasil analisis:
 - Rumah dengan harga di atas sama dengan 20 milyar memiliki luas lahan di atas 2000 m^2
 - Luas lahan memiliki korelasi yang cukup tinggi dengan harga rumah, diikuti oleh luas bangunan
 
+![alt text](https://github.com/anggapark/Depok-houseprice-prediction/blob/main/asset/korelasi.png?raw=true)
+
+![alt text](https://github.com/anggapark/Depok-houseprice-prediction/blob/main/asset/rumah_termahal.png?raw=true)
+
 ## Modelling
 
 - Pada tahap data preprocessing:
@@ -77,8 +75,15 @@ Berdasarkan hasil analisis:
   - Fitur numerik di scale menggunakan MinMaxScaler
 
 - Pada tahap modelling, algoritma yang digunakan adalah:
+
   - Linear Regression,
   - Ridge Regression,
   - Lasso Regression,
   - RANSAC Regression, dan
   - Random Forest Regression
+
+- Metric yang digunakan sebagai evaluasi model adalah Root Mean Squared Error (RMSE)
+- Dilakukan perbandingan ketiga perlakuan pada data, yaitu:
+  - membiarkan sisa outlier,
+  - menghilangkan outlier dengan metode ZScore, dan
+  - menghilangkan outlier dengan metode IQR.
