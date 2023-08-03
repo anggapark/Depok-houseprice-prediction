@@ -5,8 +5,6 @@ depok,2,1,50.0,60.0,no,no,no,no,320000000
 sukmajaya,3,3,80.0,78.0,yes,yes,yes,yes,1050000000
 sawangan,3,2,72.0,70.0,no,no,no,no,887200000
 pancoran mas,3,2,98.0,70.0,yes,yes,yes,no,850000000
-pancoran mas,3,2,150.0,84.0,no,no,no,no,670000000
-sawangan,3,4,110.0,112.0,yes,yes,no,no,1771601000
 sukmajaya,3,2,65.0,65.0,no,yes,yes,yes,810000000
 cinere,3,2,72.0,60.0,yes,yes,yes,yes,790000000
 pancoran mas,2,1,45.0,72.0,no,yes,no,yes,500000000
@@ -40,7 +38,6 @@ sawangan,3,2,72.0,121.0,yes,yes,yes,yes,1121000000
 depok,2,2,42.0,40.0,no,no,no,no,595000000
 cilodong,3,1,68.0,98.0,yes,yes,no,no,780000000
 sawangan,2,1,40.0,54.0,yes,yes,yes,no,400000000
-beji,3,1,103.0,133.0,yes,yes,yes,no,1680000000
 depok,2,1,38.0,60.0,no,no,no,no,794117600
 bojongsari,3,2,45.0,60.0,no,yes,no,yes,594000000
 depok,2,2,65.0,90.0,no,no,no,no,1200000000
@@ -60,6 +57,7 @@ cilodong,2,1,58.0,84.0,no,no,no,no,489000000
 cinere,3,2,94.0,60.0,yes,no,no,no,1250000000
 bojongsari,3,3,87.0,79.0,yes,yes,yes,no,1327500000
 beji,3,2,80.0,72.0,no,no,no,no,1600000000
+bojongsari,3,2,73.0,77.0,yes,yes,yes,no,1070000000
 sukmajaya,3,3,80.0,60.0,no,no,no,yes,850000000
 tapos,2,1,60.0,105.0,yes,yes,no,no,899000000
 cilodong,2,1,40.0,68.0,yes,yes,no,yes,550000000
@@ -68,7 +66,6 @@ pancoran mas,2,3,57.0,84.0,no,no,no,no,735000000
 pancoran mas,2,2,60.0,79.0,no,no,no,no,695000000
 sawangan,2,1,45.0,60.0,yes,yes,no,no,485000000
 tapos,2,2,46.0,40.0,no,no,no,no,556000000
-cinere,4,4,140.0,110.0,yes,yes,no,no,2640000000
 beji,2,1,45.0,73.0,no,yes,no,yes,654500000
 cilodong,4,2,62.0,60.0,yes,yes,no,no,750000000
 cimanggis,3,2,100.0,120.0,yes,yes,yes,yes,1398000000
@@ -121,7 +118,6 @@ sukmajaya,2,1,72.0,50.0,no,no,no,no,350000000
 sukmajaya,2,2,45.0,60.0,yes,yes,yes,yes,477000000
 cimanggis,3,2,103.0,55.0,yes,yes,yes,yes,1400000000
 cimanggis,3,2,121.0,130.0,yes,yes,yes,no,2040000000
-cinere,3,2,150.0,120.0,yes,yes,no,no,2400000000
 cilodong,3,3,100.0,95.0,no,yes,no,yes,980000000
 cilodong,2,1,45.0,126.0,no,no,no,no,890000000
 sukmajaya,3,3,80.0,78.0,yes,no,no,no,1050000000
@@ -137,7 +133,6 @@ beji,3,3,110.0,91.0,no,no,no,no,1450000000
 sawangan,2,1,36.0,50.0,yes,yes,no,yes,200000000
 cimanggis,2,1,40.0,63.0,no,yes,no,no,486000000
 cipayung,2,1,50.0,100.0,yes,yes,no,no,400000000
-sukmajaya,4,4,140.0,114.0,no,no,no,no,1665000000
 cimanggis,2,2,54.0,60.0,no,no,no,no,800000000
 bojongsari,2,1,90.0,108.0,yes,yes,no,no,859000000
 bojongsari,3,3,97.0,112.0,yes,yes,no,no,1664000000
@@ -148,7 +143,6 @@ sukmajaya,3,3,100.0,89.0,yes,yes,yes,yes,1100000000
 cilodong,3,3,120.0,86.0,yes,yes,yes,yes,1050000000
 cilodong,2,2,40.0,40.0,yes,no,no,no,300000000
 sawangan,2,1,90.0,50.0,no,no,no,no,949000000
-sukmajaya,3,3,150.0,106.0,yes,yes,yes,no,1800000000
 cilodong,3,3,80.0,75.0,yes,yes,yes,yes,915000000
 sawangan,2,1,45.0,60.0,no,no,no,no,500000000
 cimanggis,3,2,56.0,63.0,no,yes,no,no,600000000
@@ -191,7 +185,6 @@ beji,3,3,130.0,98.0,no,yes,yes,yes,1300000000
 pancoran mas,2,1,36.0,72.0,yes,yes,no,no,819000000
 bojongsari,3,3,79.0,120.0,yes,yes,yes,no,1500000000
 cimanggis,3,2,66.0,86.0,no,no,no,no,951000000
-cinere,4,4,130.0,100.0,yes,yes,yes,yes,1700000000
 beji,2,1,45.0,73.0,yes,yes,no,yes,654500000
 cimanggis,3,1,100.0,120.0,no,no,no,no,850000000
 bojongsari,3,2,73.0,72.0,yes,yes,yes,no,1170000000
@@ -223,7 +216,6 @@ sukmajaya,2,2,95.0,84.0,yes,yes,yes,yes,780000000
 depok,3,2,60.0,68.0,no,yes,yes,yes,697000000
 bojongsari,3,3,70.0,86.0,no,yes,yes,yes,940000000
 depok,2,1,70.0,128.0,no,no,no,no,650000000
-bojongsari,4,4,97.0,112.0,yes,yes,yes,no,1664000000
 cilodong,2,1,41.0,69.0,yes,yes,no,yes,494000000
 sukmajaya,4,1,95.0,91.0,no,no,no,no,575000000
 beji,3,2,47.0,51.0,yes,yes,yes,no,795500000
@@ -264,6 +256,7 @@ tapos,3,2,30.0,60.0,no,no,no,no,575400000
 beji,3,3,130.0,97.0,no,yes,no,yes,1495000000
 cimanggis,3,2,82.0,60.0,no,yes,yes,yes,850000000
 cimanggis,3,2,54.0,58.0,yes,yes,yes,no,741000000
+beji,3,2,82.0,60.0,no,no,no,no,985000000
 cimanggis,2,1,48.0,78.0,yes,yes,no,yes,500000000
 cimanggis,2,1,36.0,62.0,yes,yes,no,no,425000000
 cilodong,2,1,40.0,61.0,no,yes,no,no,610000000
@@ -273,7 +266,6 @@ sukmajaya,3,3,80.0,64.0,no,no,no,no,850000000
 sawangan,2,1,46.0,84.0,yes,yes,no,no,550000000
 cipayung,2,1,52.0,62.0,no,no,no,no,250000000
 cimanggis,3,2,61.0,78.0,no,no,yes,no,958000000
-pancoran mas,3,4,105.0,72.0,no,no,no,no,1150000000
 sukmajaya,3,3,80.0,60.0,yes,yes,yes,yes,850000000
 sawangan,2,1,45.0,82.0,no,no,no,no,725000000
 bojongsari,2,1,42.0,72.0,yes,yes,no,no,780000000
@@ -311,7 +303,6 @@ bojongsari,3,1,52.0,60.0,no,no,no,no,629000000
 pancoran mas,3,2,70.0,60.0,no,no,no,no,780000000
 cinere,3,2,75.0,96.0,no,no,no,no,999000000
 cilodong,3,3,120.0,90.0,yes,no,yes,yes,1100000000
-bojongsari,4,4,97.0,107.0,yes,yes,yes,yes,1574000000
 pancoran mas,2,2,40.0,50.0,no,no,no,no,503000000
 sukmajaya,2,1,50.0,90.0,no,no,no,no,1100000000
 pancoran mas,2,1,38.0,70.0,no,no,no,no,513500000
@@ -368,12 +359,10 @@ cipayung,2,1,50.0,69.0,yes,yes,no,no,660000000
 beji,2,2,55.0,45.0,yes,yes,no,no,750000000
 cipayung,2,1,48.0,78.0,no,yes,no,no,535000000
 bojongsari,2,1,36.0,65.0,no,no,no,no,582000000
-beji,4,4,130.0,98.0,yes,yes,yes,no,1495000000
 pancoran mas,3,3,81.0,58.0,yes,no,no,no,949940000
 cilodong,2,1,45.0,125.0,no,no,no,no,625000000
 sukmajaya,3,2,55.0,60.0,no,no,no,no,789750000
 cilodong,3,3,80.0,80.0,yes,yes,yes,no,925000000
-beji,3,2,85.0,133.0,yes,no,no,no,1560000000
 cimanggis,3,2,76.0,80.0,yes,yes,yes,yes,890000000
 cilodong,3,3,80.0,92.0,no,yes,no,yes,985000000
 pancoran mas,3,2,84.0,68.0,no,yes,yes,yes,825000000
@@ -397,6 +386,7 @@ beji,3,2,56.0,82.0,yes,yes,yes,yes,823000000
 cilodong,3,3,80.0,72.0,no,no,no,no,875000000
 depok,3,3,75.0,76.0,yes,yes,yes,yes,930000000
 tapos,3,2,60.0,56.0,yes,no,yes,no,790000000
+beji,2,1,45.0,69.0,yes,yes,no,yes,575000000
 sukmajaya,3,2,121.0,60.0,no,no,no,no,775000000
 depok,2,1,48.0,60.0,no,no,no,no,520000000
 sawangan,3,2,60.0,60.0,no,no,no,no,755000000
@@ -408,7 +398,6 @@ pancoran mas,3,3,140.0,113.0,yes,yes,yes,no,1660000000
 cilodong,3,3,80.0,72.0,yes,yes,yes,yes,898000000
 tapos,3,2,74.0,62.0,no,no,no,yes,890000000
 pancoran mas,2,1,45.0,63.0,yes,no,no,no,570000000
-cinere,4,3,155.0,84.0,yes,yes,yes,no,1720000000
 depok,2,2,90.0,60.0,yes,yes,no,no,999000000
 beji,3,2,100.0,95.0,no,no,no,no,1112000000
 pancoran mas,3,2,80.0,102.0,no,no,no,yes,420000000
@@ -434,10 +423,8 @@ cilodong,3,2,66.0,68.0,no,no,no,no,827000000
 cimanggis,2,2,65.0,56.0,no,no,no,no,800000000
 sukmajaya,2,2,51.0,71.0,yes,yes,yes,yes,886000000
 tapos,2,2,42.0,40.0,yes,yes,no,no,400000000
-beji,4,4,120.0,98.0,no,yes,no,no,1495000000
 pancoran mas,2,2,58.0,50.0,no,yes,no,no,1200000000
 cinere,4,3,78.0,77.0,yes,yes,yes,no,929000000
-limo,3,3,155.0,84.0,yes,yes,yes,yes,1722000000
 cilodong,2,1,38.0,60.0,yes,yes,no,no,650000000
 sukmajaya,3,2,61.0,79.0,yes,yes,yes,no,886000000
 cilodong,3,3,80.0,78.0,no,no,no,yes,1050000000
@@ -450,15 +437,11 @@ cilodong,2,1,45.0,84.0,no,yes,no,no,803000000
 bojongsari,2,1,40.0,84.0,yes,yes,no,yes,659000000
 cilodong,2,2,80.0,82.0,no,no,no,no,735000000
 cimanggis,3,2,86.0,65.0,yes,no,yes,yes,1050000000
-limo,3,3,155.0,84.0,yes,yes,yes,no,1700000000
-limo,4,4,150.0,85.0,no,yes,yes,no,1700000000
 sawangan,2,1,90.0,108.0,yes,yes,no,no,859000000
 pancoran mas,3,2,65.0,90.0,no,yes,no,yes,800000000
 pancoran mas,2,1,45.0,57.0,yes,yes,no,no,350000000
 cilodong,3,2,60.0,88.0,no,no,no,no,743100000
 sawangan,1,1,63.0,126.0,no,no,no,no,1295000000
-cinere,2,3,150.0,113.0,no,no,no,no,2600000000
-beji,3,3,150.0,92.0,no,no,no,no,1350000000
 sawangan,3,2,55.0,60.0,no,no,no,no,645000000
 sawangan,2,1,36.0,81.0,yes,yes,no,no,465000000
 sukmajaya,2,1,100.0,96.0,no,no,no,no,1100000000
@@ -466,6 +449,7 @@ cipayung,2,1,36.0,42.0,yes,no,no,no,150000000
 beji,2,1,50.0,63.0,no,no,no,no,599000000
 cilodong,3,3,80.0,78.0,no,no,no,no,970000000
 bojongsari,2,1,50.0,70.0,yes,yes,yes,yes,675000000
+sukmajaya,2,2,50.0,82.0,yes,yes,no,yes,685000000
 sawangan,3,2,60.0,69.0,no,no,no,no,797000000
 pancoran mas,3,2,75.0,70.0,no,yes,no,yes,1000000000
 cilodong,2,1,75.0,122.0,no,no,no,no,420000000
@@ -484,7 +468,6 @@ cimanggis,3,2,72.0,70.0,yes,yes,no,no,770000000
 cilodong,2,2,60.0,72.0,yes,yes,no,yes,735000000
 cilodong,3,2,70.0,97.0,yes,yes,yes,no,915000000
 cipayung,2,1,50.0,82.0,yes,yes,no,no,660000000
-cinere,4,4,130.0,90.0,yes,yes,yes,no,1300000000
 pancoran mas,2,1,45.0,66.0,no,yes,no,no,551550000
 cilodong,3,2,54.0,70.0,no,no,no,no,658000000
 cilodong,2,2,45.0,84.0,yes,yes,no,yes,710000000
@@ -521,10 +504,9 @@ sawangan,2,1,40.0,68.0,no,no,no,no,432000000
 sukmajaya,2,1,36.0,72.0,yes,yes,no,no,560000000
 sukmajaya,3,2,75.0,105.0,yes,yes,no,yes,2100000000
 cimanggis,3,2,63.0,52.0,no,no,no,no,740000000
-pancoran mas,3,1,103.0,133.0,yes,yes,yes,no,1680000000
 cimanggis,2,1,60.0,60.0,yes,yes,no,no,499000000
 sukmajaya,2,2,50.0,40.0,yes,yes,no,no,570000000
-cilodong,2,2,4.0,43.0,no,no,yes,no,465100000
+cilodong,2,2,77.0,43.0,no,no,yes,no,465100000
 cilodong,3,2,60.0,72.0,yes,yes,yes,no,670000000
 cinere,2,1,36.0,60.0,no,yes,no,yes,245600000
 tapos,2,1,30.0,61.0,no,yes,no,no,356500000
@@ -547,12 +529,10 @@ sawangan,2,1,45.0,72.0,yes,yes,no,no,600000000
 cilodong,3,2,54.0,60.0,yes,yes,yes,no,637450000
 sawangan,3,3,50.0,70.0,yes,no,no,no,786500000
 sawangan,2,1,39.0,74.0,no,no,no,no,469000000
-pancoran mas,4,4,100.0,70.0,no,yes,no,no,1540000000
 sawangan,2,1,50.0,84.0,no,no,no,no,895000000
 cimanggis,3,2,110.0,96.0,yes,yes,yes,yes,1365000000
 depok,3,2,90.0,84.0,no,yes,no,no,990000000
 cimanggis,2,1,40.0,76.0,yes,yes,no,no,460000000
-cinere,4,4,120.0,77.0,no,yes,yes,no,1525000000
 bojongsari,2,2,45.0,44.0,yes,yes,yes,no,711000000
 tapos,2,1,38.0,70.0,yes,yes,no,yes,399999999
 pancoran mas,3,2,70.0,90.0,yes,no,no,no,780000000
@@ -561,7 +541,6 @@ sukmajaya,3,2,66.0,66.0,yes,yes,no,yes,887000000
 cilodong,2,1,45.0,94.0,no,yes,no,yes,670000000
 tapos,2,1,36.0,84.0,yes,yes,no,yes,525000000
 depok,3,2,79.0,113.0,yes,yes,yes,no,1700000000
-cinere,4,5,130.0,100.0,no,no,no,no,1850000000
 depok,2,1,33.0,43.0,no,no,no,no,200000000
 cilodong,3,2,55.0,80.0,yes,yes,yes,yes,800000000
 sukmajaya,3,3,70.0,80.0,no,yes,yes,yes,997000000
@@ -570,7 +549,6 @@ cilodong,3,3,80.0,81.0,yes,yes,yes,yes,925000000
 cimanggis,3,2,110.0,96.0,yes,yes,yes,no,1365000000
 cimanggis,3,2,75.0,83.0,no,no,no,no,910000000
 beji,3,2,70.0,60.0,yes,no,yes,no,865000000
-pancoran mas,3,2,85.0,133.0,yes,no,no,no,1560000000
 cilodong,2,1,60.0,76.0,no,no,no,no,430000000
 cinere,3,2,105.0,95.0,yes,yes,no,no,1500000000
 cimanggis,3,2,95.0,74.0,yes,no,no,no,1375000000
@@ -647,6 +625,7 @@ depok,2,2,130.0,89.0,yes,no,yes,no,785000000
 sukmajaya,2,1,40.0,55.0,no,no,yes,no,275000000
 beji,2,2,95.0,100.0,yes,yes,yes,no,850000000
 cilodong,3,3,70.0,70.0,yes,yes,yes,yes,890000000
+bojongsari,3,3,87.0,102.0,yes,yes,yes,no,1486000000
 pancoran mas,2,1,95.0,36.0,no,no,no,no,493000000
 cilodong,2,1,48.0,68.0,no,no,no,no,600000000
 pancoran mas,3,2,70.0,69.0,no,no,no,no,800000000
@@ -655,6 +634,7 @@ cimanggis,3,2,54.0,60.0,no,no,no,no,720710000
 limo,3,2,80.0,84.0,yes,yes,no,yes,1080000000
 sawangan,3,2,54.0,66.0,yes,no,yes,no,578000000
 sawangan,2,1,40.0,60.0,no,no,no,no,230000000
+limo,2,2,45.0,77.0,no,yes,no,no,592150000
 cilodong,2,1,38.0,70.0,no,yes,no,yes,390000000
 sukmajaya,3,3,80.0,75.0,no,yes,yes,yes,898000000
 limo,4,3,105.0,85.0,no,no,no,no,1150000000
@@ -707,7 +687,7 @@ cipayung,2,1,40.0,72.0,yes,yes,no,yes,477424550
 limo,4,3,140.0,72.0,yes,no,no,no,1560000000
 sukmajaya,3,3,80.0,70.0,yes,yes,yes,yes,849000000
 cimanggis,2,2,60.0,90.0,yes,yes,no,yes,685000000
-pancoran mas,2,1,5.0,72.0,no,yes,no,no,675000000
+pancoran mas,2,1,77.0,72.0,no,yes,no,no,675000000
 bojongsari,2,1,36.0,66.0,no,yes,no,no,525000000
 cipayung,2,1,36.0,60.0,yes,yes,no,no,380400000
 sawangan,3,2,60.0,50.0,no,no,no,no,500000000
@@ -753,7 +733,6 @@ cimanggis,3,2,56.0,60.0,no,yes,no,yes,795000000
 sawangan,3,2,44.0,50.0,no,no,no,yes,561000000
 pancoran mas,3,2,70.0,91.0,no,yes,no,yes,780000000
 cinere,3,2,130.0,125.0,no,no,no,no,1500000000
-beji,4,4,140.0,98.0,no,no,no,no,1400000000
 sukmajaya,2,2,72.0,60.0,yes,yes,no,yes,880320000
 cilodong,3,2,64.0,70.0,yes,yes,yes,yes,763000000
 limo,3,3,130.0,95.0,no,yes,no,yes,1495000000
@@ -764,7 +743,6 @@ sawangan,3,2,70.0,72.0,no,no,no,no,675000000
 sawangan,2,1,50.0,65.0,no,no,no,no,250000000
 cipayung,2,1,40.0,55.0,no,no,no,no,443000000
 sawangan,2,1,50.0,82.0,no,no,no,no,660000000
-beji,4,3,155.0,101.0,yes,yes,yes,no,1400000000
 cimanggis,2,1,49.0,68.0,no,no,no,no,680000000
 tapos,2,1,50.0,72.0,yes,yes,no,no,532000000
 sukmajaya,3,3,70.0,78.0,yes,yes,yes,yes,980000000
@@ -772,7 +750,6 @@ beji,3,3,115.0,73.0,no,no,no,no,1050000000
 cilodong,3,2,60.0,70.0,yes,yes,no,yes,800000000
 cipayung,2,1,45.0,72.0,no,yes,no,no,200000000
 sawangan,2,1,45.0,56.0,no,no,no,no,350000000
-pancoran mas,3,3,150.0,106.0,yes,yes,yes,no,1800000000
 beji,3,3,78.0,101.0,yes,yes,yes,yes,900000000
 sawangan,2,1,45.0,90.0,yes,yes,no,no,495000000
 cinere,3,3,80.0,101.0,yes,yes,yes,yes,800000000
@@ -802,7 +779,6 @@ beji,2,1,52.0,52.0,no,no,no,no,380000000
 cinere,3,1,80.0,115.0,no,yes,no,no,850000000
 bojongsari,2,1,36.0,60.0,yes,yes,no,yes,430000000
 pancoran mas,3,3,80.0,60.0,no,yes,no,yes,950000000
-cimanggis,4,4,136.0,125.0,yes,yes,no,no,1950000000
 cilodong,3,2,54.0,74.0,no,no,no,no,703000000
 cimanggis,3,2,69.0,74.0,no,no,no,no,963000000
 cipayung,2,1,54.0,78.0,no,yes,no,no,495000000
@@ -812,16 +788,12 @@ sawangan,2,1,36.0,72.0,no,no,no,no,375000000
 cilodong,3,3,80.0,80.0,yes,yes,yes,yes,922000000
 bojongsari,2,1,60.0,60.0,no,no,no,yes,500000000
 sawangan,2,2,40.0,40.0,yes,no,yes,no,353000000
-tapos,4,4,150.0,77.0,no,no,yes,no,1700000000
-limo,3,2,150.0,120.0,yes,yes,no,no,2400000000
 bojongsari,2,1,45.0,60.0,no,no,no,no,594000000
 sawangan,3,2,64.0,70.0,yes,yes,yes,no,550000000
-pancoran mas,4,4,100.0,66.0,no,no,no,no,1537000000
 cipayung,2,1,27.0,75.0,yes,yes,no,no,371240000
 cipayung,2,1,40.0,65.0,yes,yes,no,no,458000000
 sawangan,3,2,70.0,114.0,yes,yes,no,no,1100000000
 bojongsari,2,1,60.0,86.0,yes,yes,no,no,710000000
-bojongsari,4,4,97.0,118.0,yes,yes,yes,no,1712000000
 pancoran mas,2,2,70.0,60.0,no,yes,no,no,1400000000
 cipayung,2,1,40.0,71.0,yes,yes,no,no,440000000
 cilodong,1,1,24.0,26.0,no,no,no,no,200000000
@@ -843,10 +815,10 @@ cinere,2,2,74.0,97.0,no,no,no,no,1561000000
 pancoran mas,2,1,40.0,70.0,no,yes,no,no,499000000
 beji,2,1,40.0,66.0,yes,yes,no,no,420000000
 cimanggis,2,1,45.0,50.0,yes,no,yes,no,550000000
-cipayung,3,2,150.0,105.0,yes,yes,no,no,1380000000
 cinere,3,3,140.0,118.0,no,no,no,no,1900000000
 pancoran mas,2,1,42.0,68.0,no,yes,no,yes,600000000
 bojongsari,3,3,100.0,123.0,yes,yes,no,no,1350000000
+sawangan,3,2,63.0,77.0,yes,yes,yes,no,1158000000
 pancoran mas,3,3,130.0,95.0,no,yes,no,yes,1495000000
 sukmajaya,2,1,64.0,76.0,no,yes,no,yes,850000000
 tapos,3,2,40.0,53.0,no,no,no,no,493000000
@@ -858,7 +830,6 @@ cilodong,3,2,88.0,85.0,yes,yes,yes,no,783500000
 sawangan,2,1,45.0,73.0,no,yes,no,yes,654500000
 tapos,3,2,54.0,65.0,yes,yes,yes,yes,650000000
 sukmajaya,3,3,80.0,81.0,yes,yes,yes,yes,925000000
-bojongsari,4,4,97.0,107.0,yes,yes,yes,no,1624000000
 pancoran mas,3,3,120.0,52.0,no,no,no,no,975000000
 sukmajaya,2,2,42.0,40.0,no,yes,no,no,571200000
 sawangan,2,1,45.0,63.0,no,yes,no,no,525000000
@@ -873,6 +844,7 @@ beji,2,1,36.0,72.0,no,no,no,no,750000000
 pancoran mas,3,2,60.0,62.0,no,no,no,no,674000000
 depok,3,3,100.0,85.0,yes,yes,yes,yes,1100000000
 cimanggis,2,2,48.0,42.0,no,no,no,no,480000000
+cimanggis,2,2,51.0,77.0,no,no,no,no,800000000
 tapos,3,2,65.0,55.0,yes,no,no,no,850000000
 limo,3,2,75.0,70.0,no,yes,no,yes,1000000000
 pancoran mas,3,2,62.0,55.0,no,yes,no,yes,730000000
@@ -896,12 +868,10 @@ cilodong,2,1,40.0,90.0,yes,yes,no,yes,670000000
 pancoran mas,2,1,55.0,70.0,no,yes,no,yes,800000000
 cilodong,4,2,66.0,72.0,yes,yes,no,no,495000000
 beji,2,2,51.0,60.0,no,no,no,no,776000000
-beji,4,2,150.0,96.0,no,no,no,no,700000000
 bojongsari,2,1,45.0,110.0,no,no,no,no,600000000
 bojongsari,2,1,45.0,125.0,yes,yes,no,no,795000000
 sawangan,3,2,70.0,80.0,yes,yes,yes,yes,1000000000
 cilodong,2,1,45.0,78.0,no,no,no,no,670500000
-sukmajaya,4,4,119.0,120.0,no,no,no,no,1680000000
 sukmajaya,4,3,140.0,113.0,no,no,no,no,1660000000
 bojongsari,2,1,40.0,108.0,yes,yes,no,no,575000000
 cilodong,2,1,36.0,60.0,no,yes,no,no,700000000
@@ -923,7 +893,6 @@ cipayung,2,2,45.0,84.0,no,no,no,no,465000000
 cilodong,2,1,45.0,90.0,yes,no,no,no,1000000000
 sukmajaya,3,2,60.0,60.0,no,no,no,no,750000000
 sawangan,2,1,45.0,73.0,yes,yes,no,no,575000000
-limo,2,2,150.0,113.0,yes,no,no,no,2040000000
 sawangan,3,2,110.0,67.0,no,no,no,no,950000000
 cipayung,2,1,45.0,75.0,no,no,no,no,275000000
 bojongsari,2,1,50.0,73.0,no,no,no,no,550000000
@@ -931,7 +900,6 @@ cilodong,3,2,85.0,107.0,yes,yes,yes,yes,1195000000
 sawangan,2,2,42.0,41.0,no,no,no,no,571000000
 cilodong,2,2,60.0,90.0,yes,yes,no,no,685000000
 tapos,2,1,36.0,70.0,yes,yes,no,no,422000000
-cinere,4,5,130.0,100.0,no,no,yes,no,1650000000
 cimanggis,3,2,60.0,33.0,yes,yes,yes,no,490000000
 sawangan,2,2,60.0,84.0,no,no,no,no,859000000
 cilodong,1,1,24.0,24.0,no,no,no,no,166000000
@@ -948,7 +916,6 @@ bojongsari,2,1,40.0,76.0,no,no,no,no,516000000
 pancoran mas,2,1,40.0,60.0,yes,yes,no,no,350000000
 beji,2,1,45.0,66.0,no,yes,no,no,551550000
 sawangan,2,1,45.0,98.0,yes,yes,no,no,850000000
-tapos,4,4,70.0,82.0,yes,no,yes,no,940000000
 cimanggis,3,2,72.0,72.0,yes,yes,no,no,770000000
 cipayung,2,1,40.0,63.0,no,yes,no,no,494000000
 beji,3,3,130.0,96.0,no,yes,no,yes,1495000000
@@ -960,7 +927,6 @@ beji,2,2,70.0,98.0,no,no,no,no,987000000
 sukmajaya,3,2,80.0,112.0,no,no,no,no,800000000
 sawangan,3,2,101.0,70.0,yes,yes,yes,yes,945000000
 sukmajaya,2,1,36.0,42.0,no,no,no,no,650000000
-tapos,4,4,98.0,120.0,no,no,no,no,1900000000
 depok,2,1,36.0,46.0,yes,yes,no,no,409000000
 pancoran mas,3,2,84.0,52.0,no,no,yes,no,825000000
 depok,2,1,36.0,60.0,yes,yes,no,yes,450000000
@@ -991,7 +957,6 @@ pancoran mas,2,1,40.0,83.0,no,yes,no,no,930550000
 pancoran mas,4,3,99.0,96.0,yes,yes,no,no,429000000
 bojongsari,2,1,45.0,90.0,yes,yes,no,no,780000000
 cilodong,2,1,40.0,55.0,no,no,no,no,487450000
-cinere,4,5,120.0,127.0,no,no,no,yes,2700000000
 bojongsari,3,2,80.0,88.0,no,no,no,no,1200000000
 cilodong,2,1,36.0,36.0,yes,yes,no,no,372000000
 cinere,3,3,80.0,90.0,yes,yes,yes,yes,800000000
@@ -1004,6 +969,7 @@ cimanggis,3,2,85.0,75.0,no,no,no,no,1694000000
 beji,2,2,60.0,90.0,yes,yes,no,yes,720000000
 sawangan,2,1,36.0,72.0,yes,yes,no,no,395000000
 depok,2,1,45.0,73.0,no,no,no,no,530000000
+sawangan,2,1,38.0,77.0,no,no,no,no,604569500
 pancoran mas,3,2,85.0,87.0,no,no,no,no,765000000
 cilodong,2,1,60.0,90.0,no,no,no,no,910000000
 beji,3,2,80.0,60.0,no,yes,no,yes,900000000
@@ -1084,16 +1050,15 @@ cimanggis,3,2,47.0,45.0,yes,yes,yes,no,761000000
 sawangan,2,1,40.0,60.0,no,yes,no,yes,490000000
 cimanggis,3,2,61.0,60.0,yes,yes,yes,no,790000000
 cilodong,2,1,50.0,60.0,no,no,no,no,520000000
+beji,3,3,119.0,72.0,no,no,no,no,1375000000
 depok,4,2,95.0,88.0,no,no,no,no,930000000
 bojongsari,2,1,32.0,60.0,yes,yes,no,yes,300000000
-cinere,2,2,150.0,113.0,yes,no,no,no,2040000000
 sawangan,2,1,45.0,76.0,yes,yes,no,yes,273000000
 beji,3,3,120.0,72.0,yes,no,no,yes,1350000000
 sawangan,2,1,52.0,84.0,yes,yes,no,yes,520000000
 bojongsari,2,1,50.0,76.0,yes,yes,no,no,690000000
 pancoran mas,3,2,70.0,77.0,no,no,no,no,855000000
 limo,3,2,80.0,80.0,no,yes,no,yes,980000000
-beji,4,4,140.0,102.0,no,yes,no,yes,1600000000
 cilodong,2,2,60.0,87.0,no,no,no,no,685000000
 pancoran mas,3,2,100.0,71.0,no,no,no,no,1250000000
 bojongsari,3,2,75.0,84.0,yes,yes,no,no,1172500000
@@ -1119,7 +1084,6 @@ depok,3,2,84.0,64.0,yes,yes,no,no,975000000
 cipayung,2,1,40.0,71.0,yes,yes,no,yes,467272500
 cinere,3,2,90.0,70.0,no,no,no,no,1500000000
 cilodong,2,2,50.0,72.0,no,no,no,no,735000000
-beji,4,4,130.0,80.0,no,no,no,no,1525000000
 cimanggis,1,1,35.0,35.0,no,no,no,no,125000000
 cilodong,2,1,46.0,60.0,no,no,no,no,675000000
 cimanggis,2,2,65.0,90.0,yes,yes,no,yes,900000000
@@ -1142,7 +1106,6 @@ cimanggis,3,2,60.0,33.0,yes,yes,no,no,485000000
 cipayung,2,1,36.0,50.0,yes,yes,no,no,185000000
 cilodong,3,2,80.0,80.0,yes,yes,no,no,950000000
 pancoran mas,3,2,70.0,70.0,no,yes,no,yes,900000000
-limo,3,3,155.0,84.0,yes,yes,no,no,1722000000
 cilodong,3,1,45.0,84.0,no,yes,no,no,567644000
 depok,3,2,79.0,90.0,no,no,no,no,1015000000
 pancoran mas,3,2,96.0,93.0,yes,yes,no,no,1200000000
@@ -1163,7 +1126,6 @@ cipayung,3,1,80.0,80.0,no,no,no,yes,365000000
 sukmajaya,3,3,80.0,80.0,yes,yes,yes,yes,925000000
 sawangan,2,2,40.0,50.0,yes,yes,yes,no,473000000
 sukmajaya,3,3,80.0,64.0,no,no,no,yes,850000000
-beji,3,1,103.0,133.0,no,no,no,no,1680000000
 cilodong,3,2,80.0,101.0,no,no,no,no,1450000000
 cilodong,2,1,36.0,50.0,yes,no,no,no,500000000
 cimanggis,3,2,69.0,81.0,no,no,no,no,1006000000
@@ -1192,7 +1154,6 @@ cilodong,2,1,36.0,50.0,no,yes,no,no,275000000
 beji,2,1,32.0,60.0,yes,yes,no,yes,348000000
 sukmajaya,3,2,107.0,87.0,yes,no,no,no,1384800000
 tapos,2,1,42.0,80.0,no,no,no,yes,450000000
-cinere,4,4,110.0,84.0,no,no,no,no,1770000000
 tapos,2,1,36.0,60.0,no,yes,no,no,405000000
 sawangan,2,1,42.0,60.0,yes,yes,no,no,486000000
 pancoran mas,2,1,45.0,68.0,no,no,no,no,600000000
@@ -1203,7 +1164,6 @@ cipayung,2,1,42.0,60.0,no,no,no,no,486000000
 pancoran mas,2,1,36.0,66.0,no,no,no,no,550000000
 cimanggis,3,2,69.0,69.0,no,yes,no,no,800000000
 sawangan,3,2,63.0,66.0,yes,no,yes,no,732101200
-depok,4,4,97.0,112.0,yes,yes,yes,no,1664000000
 sukmajaya,3,2,66.0,72.0,yes,yes,yes,yes,931000000
 depok,3,2,60.0,102.0,no,no,no,no,650000000
 pancoran mas,2,1,55.0,65.0,no,no,no,no,650000000
@@ -1236,7 +1196,6 @@ beji,2,2,50.0,54.0,yes,yes,no,no,820000000
 cimanggis,2,3,78.0,98.0,yes,yes,no,no,1250000000
 bojongsari,2,1,36.0,90.0,no,no,no,no,660000000
 depok,3,3,75.0,80.0,no,no,no,no,950000000
-cinere,4,4,130.0,90.0,no,no,no,no,1800000000
 limo,4,3,110.0,84.0,yes,yes,no,no,1295000000
 cilodong,3,2,46.0,60.0,yes,yes,yes,no,756000000
 cimanggis,3,2,57.0,60.0,yes,yes,no,no,750000000
@@ -1273,7 +1232,7 @@ depok,3,2,56.0,60.0,no,no,no,no,606000000
 beji,3,3,130.0,97.0,no,no,no,no,1300000000
 cimanggis,3,2,70.0,78.0,yes,no,no,no,1043000000
 sawangan,2,1,30.0,50.0,no,no,no,yes,300000000
-cilodong,2,2,2.0,78.0,no,no,no,no,831000000
+cilodong,2,2,77.0,78.0,no,no,no,no,831000000
 beji,2,1,45.0,73.0,yes,no,no,yes,654500000
 cilodong,3,3,80.0,81.0,no,yes,yes,yes,925000000
 bojongsari,3,2,80.0,108.0,yes,yes,no,no,865000000
@@ -1300,10 +1259,11 @@ cimanggis,3,2,60.0,70.0,yes,yes,yes,yes,875000000
 bojongsari,3,2,66.0,70.0,yes,yes,yes,yes,600000000
 pancoran mas,2,1,40.0,72.0,yes,no,no,yes,499000000
 sawangan,3,2,55.0,60.0,yes,yes,yes,yes,900000000
-pancoran mas,2,2,4.0,40.0,no,yes,no,no,564000000
+pancoran mas,2,2,77.0,40.0,no,yes,no,no,564000000
 beji,3,1,100.0,113.0,no,no,no,no,455000000
 cimanggis,2,1,45.0,60.0,yes,yes,no,no,475000000
 cilodong,3,2,60.0,88.0,yes,no,no,no,743100000
+cimanggis,3,2,70.0,90.0,yes,no,no,no,897500000
 cilodong,2,1,72.0,92.0,no,no,no,no,850000000
 cinere,2,2,40.0,40.0,no,yes,no,yes,399000000
 tapos,3,2,72.0,60.0,yes,yes,yes,yes,790000000
@@ -1322,6 +1282,7 @@ cimanggis,2,2,89.0,85.0,yes,yes,no,no,1630100000
 cimanggis,3,2,77.0,60.0,no,yes,no,no,835950000
 cilodong,3,3,70.0,75.0,no,yes,no,no,900000000
 cilodong,2,2,46.0,40.0,no,no,no,no,481000000
+cimanggis,3,2,56.0,77.0,yes,yes,no,no,775000000
 sawangan,2,1,30.0,32.0,no,no,no,no,200000000
 cilodong,2,1,40.0,53.0,no,no,no,no,400000000
 sawangan,2,1,36.0,58.0,yes,yes,yes,yes,320000000
@@ -1337,7 +1298,6 @@ pancoran mas,2,1,40.0,60.0,no,yes,no,yes,450000000
 cimanggis,2,2,51.0,66.0,no,no,no,no,859250000
 depok,2,2,46.0,60.0,yes,yes,no,no,677000000
 sawangan,3,2,56.0,65.0,yes,yes,yes,yes,755500000
-limo,2,2,150.0,113.0,yes,yes,no,no,2040000000
 cilodong,3,2,60.0,60.0,yes,yes,no,no,699000000
 cimanggis,3,2,60.0,63.0,yes,no,no,no,818588000
 cimanggis,3,2,72.0,60.0,yes,no,yes,no,895000000
@@ -1381,7 +1341,6 @@ cilodong,2,1,72.0,72.0,yes,yes,no,no,660000000
 tapos,3,2,67.0,70.0,no,yes,no,no,950000000
 cilodong,2,2,40.0,45.0,no,yes,yes,no,474000000
 bojongsari,3,2,88.0,79.0,no,no,no,no,1500000000
-limo,4,4,155.0,84.0,no,no,no,no,1722000000
 depok,3,2,80.0,78.0,no,no,no,no,999000000
 cilodong,2,2,50.0,72.0,yes,yes,no,yes,735000000
 beji,4,2,120.0,127.0,yes,yes,no,no,998000000
@@ -1396,27 +1355,22 @@ cilodong,3,3,80.0,71.0,yes,yes,yes,yes,915000000
 sukmajaya,3,2,60.0,72.0,no,yes,no,no,795000000
 cilodong,3,1,45.0,82.0,no,no,no,no,690000000
 cipayung,2,1,45.0,66.0,no,yes,no,no,551550000
-cinere,4,3,150.0,101.0,yes,yes,yes,no,2400000000
 cinere,3,2,88.0,105.0,no,no,no,no,890000000
-depok,3,4,109.0,112.0,yes,yes,yes,no,1700000000
 sawangan,2,2,50.0,71.0,yes,yes,no,no,655000000
 cimanggis,2,2,48.0,42.0,yes,yes,no,no,400000000
 pancoran mas,3,2,60.0,72.0,no,yes,no,yes,885000000
 cilodong,3,2,88.0,84.0,yes,yes,no,no,780000000
-cinere,4,4,100.0,76.0,no,no,no,no,1610000000
-cimanggis,2,2,150.0,87.0,no,no,no,no,1000000000
 tapos,2,1,36.0,61.0,no,yes,yes,yes,300000000
 cilodong,2,1,36.0,61.0,yes,yes,no,yes,610000000
 cilodong,2,2,50.0,81.0,no,yes,no,yes,720000000
 beji,3,3,120.0,102.0,no,yes,no,yes,1350000000
 cilodong,3,3,75.0,116.0,no,no,no,no,1100000000
 cipayung,2,1,45.0,72.0,no,no,no,no,460000000
-sawangan,4,2,150.0,128.0,yes,yes,yes,no,2524733000
 cinere,3,3,80.0,81.0,yes,yes,yes,yes,925000000
 cilodong,3,3,100.0,95.0,no,no,no,no,950000000
 cilodong,2,1,50.0,70.0,yes,yes,no,no,350000000
 cilodong,3,3,90.0,78.0,yes,yes,yes,yes,1050000000
-cimanggis,3,2,1.0,110.0,no,no,no,no,975000000
+cimanggis,3,2,77.0,110.0,no,no,no,no,975000000
 pancoran mas,3,3,80.0,50.0,no,yes,no,yes,865000000
 sukmajaya,2,2,40.0,52.0,yes,yes,yes,no,495000000
 tapos,2,1,50.0,84.0,no,no,no,no,750000000
@@ -1464,7 +1418,6 @@ pancoran mas,2,1,45.0,72.0,yes,yes,no,yes,450000000
 sawangan,3,2,63.0,74.0,yes,yes,yes,yes,754215000
 tapos,3,2,80.0,50.0,no,no,no,no,735000000
 sawangan,2,1,50.0,75.0,no,yes,no,no,325000000
-beji,4,4,130.0,77.0,no,no,no,no,1525000000
 cimanggis,3,2,56.0,63.0,yes,yes,no,yes,775000000
 sawangan,2,1,28.0,28.0,no,no,no,no,135000000
 sawangan,3,3,78.0,101.0,yes,yes,yes,yes,900000000
