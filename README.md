@@ -51,7 +51,10 @@ Setelah di scraping, data perlu dibersihkan agar dapat dianalisis dan dilakukan 
 - Ditemukannya outlier pada fitur kamar tidur, kamar mandi, luas bangunan, dan luas lahan.
 
   - Mayoritas outlier diakibatkan oleh kesalahan input pada sumber data. Metode untuk mengatasi outlier ini pada projek ini adalah dengan menganggap nilai tersebut sebagai missing value, sehingga diganti dengan nilai median. Nilai median digunakan karena tahan terhadap outlier dibanding dengan menggunakan mean.
-  - Terdapat outlier lainnya yang merupakan pencilan, bukan hasil kesalahan input
+  - Terdapat outlier lainnya yang bukan hasil kesalahan input. Outlier jenis ini akan dibiarkan
+
+- Semua fitur numerik memiliki distribusi yang cenderung skew ke kanan karena adanya outlier.
+- Fitur kamar mandi dihilangkan karena berkorelasi tinggi dengan kamar tidur
 
 ## Data Analysis
 
@@ -59,12 +62,18 @@ Berdasarkan hasil analisis:
 
 - Terdapat rumah di daerah Sawangan dengan harga 40 milyar dengan luas lahan 9000 m^2
 - Cinere merupakan daerah yang memiliki rata-rata harga rumah termahal di Kota Depok, diikuti oleh Limo dan Beji
+
+  ![alt text](https://github.com/anggapark/Depok-houseprice-prediction/blob/main/asset/rata2_harga_lokasi.png.png?raw=true)
+
 - Rumah dengan harga di atas sama dengan 20 milyar memiliki luas lahan di atas 2000 m^2
 - Luas lahan memiliki korelasi yang cukup tinggi dengan harga rumah, diikuti oleh luas bangunan
+- Kamar tidur memiliki korelasi yang tinggi dengan kamar tidur
 
-![alt text](https://github.com/anggapark/Depok-houseprice-prediction/blob/main/asset/korelasi.png?raw=true)
+  ![alt text](https://github.com/anggapark/Depok-houseprice-prediction/blob/main/asset/korelasi.png?raw=true)
 
-![alt text](https://github.com/anggapark/Depok-houseprice-prediction/blob/main/asset/rumah_termahal.png?raw=true)
+- Mayoritas rumah tidak memiliki salah satu atau semua fitur tambahan
+
+  ![alt text](https://github.com/anggapark/Depok-houseprice-prediction/blob/main/asset/fitur_lain.png?raw=true)
 
 ## Modelling
 
@@ -72,7 +81,8 @@ Berdasarkan hasil analisis:
 
   - Fitur dengan nilai yes dan no dilakukan label encoding menjadi yes: 1 dan no: 0.
   - Fitur kategorik dengan kelas yang banyak seperti lokasi diterapkan One Hot Encoding
-  - Fitur numerik di scale menggunakan MinMaxScaler
+  - Fitur yang distribusinya skew dilakukan transformasi data menggunakan log transformation
+  - Fitur numerik di scale menggunakan StandardScaler
 
 - Pada tahap modelling, algoritma yang digunakan adalah:
 
@@ -82,23 +92,30 @@ Berdasarkan hasil analisis:
   - RANSAC Regression, dan
   - Random Forest Regression
 
-- Metric yang digunakan sebagai evaluasi model adalah Root Mean Squared Error (RMSE)
+- Metric yang digunakan sebagai evaluasi model adalah Root Mean Squared Error (RMSE) dan Mean Absolute Error (MAE)
 
 ## Evaluation
 
-| Model                    | RMSE         |
-| ------------------------ | ------------ |
-| Linear Regression        | 5.259537e+08 |
-| Ridge Regression         | 4.857955e+08 |
-| Lasso Regression         | 5.259537e+08 |
-| RANSAC Regression        | 5.331511e+08 |
-| Random forest Regression | 4.182682e+08 |
+| Model                    | RMSE     | MAE      |
+| ------------------------ | -------- | -------- |
+| Linear Regression        | 0.288594 | 0.209811 |
+| Ridge Regression         | 0.288735 | 0.209920 |
+| Lasso Regression         | 0.610469 | 0.451481 |
+| RANSAC Regression        | 0.318648 | 0.227697 |
+| Random forest Regression | 0.254087 | 0.174959 |
 
-Dapat dilihat, model dengan nilai RMSE terbaik adalah Random Forest Regression dengan nilai RMSE 418268164.0264733.
+Dapat dilihat, model dengan nilai RMSE dan MAE terbaik adalah Random Forest Regression dengan nilai RMSE 0.254087 dan MAE 0.174959
+
+Setelah itu dilakukan parameter tuning pada model Random Forest Regression untuk mencari hasil yang lebih baik menggunakan GridSearchCV.
+Hasil dari tuning adalah:
+| | RMSE | MAE |
+| Sebelum Tuning| 0.254087 | 0.174959 |
+| Setelah Tuning | 0.253440 | 0.174139 |
+
+Nilai RMSE berkurang 0.000
 
 ## Future Plan
 
-- Menggunakan standardscaler pada preprocessing dan dibandingkan dengan minmaxscaler yang dipakai saat ini.
-- Melakukan hyperparameter tuning pada model untuk mencari nilai RMSE yang lebih baik.
-- Deploy machine learning model dengan streamlit.
-- Membuat API untuk siapa saja yang ingin membuat aplikasi dengan machine learning model.
+- [x] Melakukan hyperparameter tuning pada model untuk mencari nilai RMSE dan MAE yang lebih baik.
+- [ ] Deploy machine learning model dengan streamlit.
+- [ ] Membuat API untuk siapa saja yang ingin membuat aplikasi dengan machine learning model.
