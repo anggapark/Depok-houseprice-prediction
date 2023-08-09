@@ -110,9 +110,10 @@ Setelah itu dilakukan parameter tuning pada model Random Forest Regression untuk
 
 Hasil dari tuning adalah:
 
-| Tuning | RMSE | MAE |
-| Sebelum | 0.254087 | 0.174959 |
-| Setelah | 0.253440 | 0.174139 |
+|                | RMSE     | MAE      |
+| -------------- | -------- | -------- |
+| Sebelum Tuning | 0.254087 | 0.174959 |
+| Setelah Tuning | 0.253440 | 0.174139 |
 
 ## Future Plan
 
