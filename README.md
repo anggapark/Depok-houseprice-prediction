@@ -63,7 +63,7 @@ Berdasarkan hasil analisis:
 - Terdapat rumah di daerah Sawangan dengan harga 40 milyar dengan luas lahan 9000 m^2
 - Cinere merupakan daerah yang memiliki rata-rata harga rumah termahal di Kota Depok, diikuti oleh Limo dan Beji
 
-  ![alt text](https://github.com/anggapark/Depok-houseprice-prediction/blob/main/asset/rata2_harga_lokasi.png.png?raw=true)
+  ![alt text](https://github.com/anggapark/Depok-houseprice-prediction/blob/main/asset/rata2_harga_lokasi.png?raw=true)
 
 - Rumah dengan harga di atas sama dengan 20 milyar memiliki luas lahan di atas 2000 m^2
 - Luas lahan memiliki korelasi yang cukup tinggi dengan harga rumah, diikuti oleh luas bangunan
@@ -104,18 +104,18 @@ Berdasarkan hasil analisis:
 | RANSAC Regression        | 0.318648 | 0.227697 |
 | Random forest Regression | 0.254087 | 0.174959 |
 
-Dapat dilihat, model dengan nilai RMSE dan MAE terbaik adalah Random Forest Regression dengan nilai RMSE 0.254087 dan MAE 0.174959
+Dapat dilihat, model dengan nilai RMSE dan MAE terbaik adalah Random Forest Regression dengan nilai RMSE 0.254087 dan MAE 0.174959.
 
 Setelah itu dilakukan parameter tuning pada model Random Forest Regression untuk mencari hasil yang lebih baik menggunakan GridSearchCV.
-Hasil dari tuning adalah:
-| | RMSE | MAE |
-| Sebelum Tuning| 0.254087 | 0.174959 |
-| Setelah Tuning | 0.253440 | 0.174139 |
 
-Nilai RMSE berkurang 0.000
+Hasil dari tuning adalah:
+
+| Tuning | RMSE | MAE |
+| Sebelum | 0.254087 | 0.174959 |
+| Setelah | 0.253440 | 0.174139 |
 
 ## Future Plan
 
-- [x] Melakukan hyperparameter tuning pada model untuk mencari nilai RMSE dan MAE yang lebih baik.
+- [x] Melakukan parameter tuning pada model untuk mencari nilai RMSE dan MAE yang lebih baik.
 - [ ] Deploy machine learning model dengan streamlit.
 - [ ] Membuat API untuk siapa saja yang ingin membuat aplikasi dengan machine learning model.
