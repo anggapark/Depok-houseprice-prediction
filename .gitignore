@@ -6,6 +6,7 @@ share/
 etc/
 xgboost/
 .ipynb_checkpoints/
+.spyproject
 *.cfg
 *.dll
 *.d
