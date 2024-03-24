@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-# depok_house_price_prediction documentation build
+# depok_houseprice_predict documentation build
 # configuration file, created by sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its
@@ -21,11 +21,11 @@
 import re
 
 from kedro.framework.cli.utils import find_stylesheets
-from depok_house_price_prediction import __version__ as release
+from depok_houseprice_predict import __version__ as release
 
 # -- Project information -----------------------------------------------------
 
-project = "depok_house_price_prediction"
+project = "depok_houseprice_predict"
 author = "Kedro"
 
 # The short X.Y version.
@@ -121,7 +121,7 @@ html_show_copyright = False
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "depok_house_price_predictiondoc"
+htmlhelp_basename = "depok_houseprice_predictdoc"
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -149,8 +149,8 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "depok_house_price_prediction.tex",
-        "depok_house_price_prediction Documentation",
+        "depok_houseprice_predict.tex",
+        "depok_houseprice_predict Documentation",
         "Kedro",
         "manual",
     )
@@ -163,8 +163,8 @@ latex_documents = [
 man_pages = [
     (
         master_doc,
-        "depok_house_price_prediction",
-        "depok_house_price_prediction Documentation",
+        "depok_houseprice_predict",
+        "depok_houseprice_predict Documentation",
         [author],
         1,
     )
@@ -178,11 +178,11 @@ man_pages = [
 texinfo_documents = [
     (
         master_doc,
-        "depok_house_price_prediction",
-        "depok_house_price_prediction Documentation",
+        "depok_houseprice_predict",
+        "depok_houseprice_predict Documentation",
         author,
-        "depok_house_price_prediction",
-        "Project depok_house_price_prediction codebase.",
+        "depok_houseprice_predict",
+        "Project depok_houseprice_predict codebase.",
         "Data-Science",
     )
 ]

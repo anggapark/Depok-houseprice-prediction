@@ -1,5 +1,5 @@
-"""Depok House Price Prediction file for ensuring the package is executable
-as `depok-house-price-prediction` and `python -m depok_house_price_prediction`
+"""depok-houseprice-predict file for ensuring the package is executable
+as `depok-houseprice-predict` and `python -m depok_houseprice_predict`
 """
 import importlib
 from pathlib import Path

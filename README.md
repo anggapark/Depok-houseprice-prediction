@@ -1,4 +1,4 @@
-# Depok House Price Prediction
+# depok-houseprice-predict
 
 ## Overview
 
