@@ -58,7 +58,7 @@ def parse_subcategories(x: pd.Series) -> pd.Series:
 def prep_location(x: pd.Series) -> pd.Series:
     """parse parent_url column to get house location
     example:
-        https://www.lamudi.co.id/west-java/depok/cimanggis/house/buy/ to "cimanggis"
+        https://www.lamudi.co.id/west-java/depok/cimanggis/house/buy/ to "cimanggis" and
         https://www.lamudi.co.id/west-java/depok/sawangan-1/house/buy/ to "sawangan"
 
     Args:
@@ -207,31 +207,31 @@ def preprocess_data(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def train_test_split(prep_df: pd.DataFrame):
-    """Split processed data into train and test sets
+# def train_test_split(prep_df: pd.DataFrame):
+#     """Split processed data into train and test sets
 
-    Args:
-        prep_df (pd.DataFrame): DataFrame containing the processed house dataset
+#     Args:
+#         prep_df (pd.DataFrame): DataFrame containing the processed house dataset
 
-    Returns:
-        Tuple: train data, train labels, test data, and test labels
-    """
-    train_df = prep_df.iloc[:6489,]
-    test_df = prep_df.iloc[6489:,]
+#     Returns:
+#         Tuple: train data, train labels, test data, and test labels
+#     """
+#     train_df = prep_df.iloc[:6489,]
+#     test_df = prep_df.iloc[6489:,]
 
-    X_train = train_df.drop(
-        columns=["price", "categories", "geo_point", "page_url", "parent_url"], axis=1
-    )
-    y_train = train_df["price"]
+#     X_train = train_df.drop(
+#         columns=["price", "categories", "geo_point", "page_url", "parent_url"], axis=1
+#     )
+#     y_train = train_df["price"]
 
-    X_test = test_df.drop(
-        columns=["price", "categories", "geo_point", "page_url", "parent_url"], axis=1
-    )
-    y_test = test_df["price"]
+#     X_test = test_df.drop(
+#         columns=["price", "categories", "geo_point", "page_url", "parent_url"], axis=1
+#     )
+#     y_test = test_df["price"]
 
-    return (
-        X_train,
-        y_train,
-        X_test,
-        y_test,
-    )
+#     return (
+#         X_train,
+#         y_train,
+#         X_test,
+#         y_test,
+#     )

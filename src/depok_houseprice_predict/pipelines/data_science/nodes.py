@@ -4,20 +4,47 @@ generated using Kedro 0.19.3
 """
 
 import logging
+from typing import Dict, Tuple, Any
 import pandas as pd
-import numpy as np
-from sklearn.pipeline import Pipeline
-from sklearn.compose import ColumnTransformer
+
+# from sklearn.pipeline import Pipeline
+# from sklearn.compose import ColumnTransformer
 
 from sklearn.linear_model import RANSACRegressor, LinearRegression, Ridge, Lasso
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.model_selection import cross_val_score, GridSearchCV
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import (
     mean_squared_error,
     mean_absolute_error,
     root_mean_squared_error,
     r2_score,
 )
+
+
+def split_dataset(data: pd.DataFrame) -> Tuple:
+    """Split processed data into train and test sets
+
+    Args:
+        prep_df (pd.DataFrame): DataFrame containing the processed house dataset
+
+    Returns:
+        Tuple: train data, train labels, test data, and test labels
+    """
+    X = data.drop(
+        columns=["price", "categories", "geo_point", "page_url", "parent_url"], axis=1
+    )
+    y = data["price"]
+
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=0
+    )
+
+    return (
+        X_train,
+        y_train,
+        X_test,
+        y_test,
+    )
 
 
 def train_model(X_train: pd.DataFrame, y_train: pd.Series) -> LinearRegression:
