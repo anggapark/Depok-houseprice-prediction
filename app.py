@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 # Load model
 with open(
-    "./data/06_models/lr_model.pickle/2024-08-29T04.34.26.360Z/lr_model.pickle", "rb"
+    "./data/06_models/lr_model.pickle/2024-08-30T15.18.18.694Z/lr_model.pickle", "rb"
 ) as f:
     model = pickle.load(f)
 
@@ -122,7 +122,7 @@ def predict():
 
     return render_template(
         "index.html",
-        prediction_text=f"The predicted house price is: Rp.{predicted_price}",
+        prediction_text=f"The predicted house price is: Rp. {predicted_price}",
     )
 
 
