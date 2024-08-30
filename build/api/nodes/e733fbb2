@@ -1,0 +1,13 @@
+{
+  "code": "def predict(regressor: LinearRegression, X_test: pd.DataFrame) -> pd.Series:\n    \"\"\"Calculates and logs the coefficient of determination.\n\n    Args:\n        regressor: Trained model.\n        X_test: Testing data of independent features.\n        y_test: Testing data for price.\n    \"\"\"\n    y_pred = regressor.predict(X_test)\n    return y_pred\n",
+  "filepath": "depok-houseprice/src/depok_houseprice_predict/pipelines/data_science/nodes.py",
+  "parameters": {},
+  "run_command": "kedro run --to-nodes=prediction",
+  "inputs": [
+    "regressor",
+    "X_test"
+  ],
+  "outputs": [
+    "y_pred"
+  ]
+}

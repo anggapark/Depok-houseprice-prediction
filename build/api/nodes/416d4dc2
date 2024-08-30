@@ -1,0 +1,12 @@
+{
+  "code": "def preprocess_data(df: pd.DataFrame) -> pd.DataFrame:\n    \"\"\"Process the data for model training\n\n    Args:\n        df (pd.DataFrame): dataset used to build machine learning model\n\n    Returns:\n        pd.DataFrame: preprocessed dataset\n    \"\"\"\n    # \"bedrooms\", \"bathrooms\", \"num_floors\", \"price\", \"building_size\", \"land_size\"\n    df = convert_dtypes(df)\n    # subcategories\n    df[\"subcategories\"] = parse_subcategories(df[\"subcategories\"])\n    # locations\n    df[\"location\"] = prep_location(df[\"parent_url\"])\n    # furnished\n    df[\"furnished\"] = prep_furnished(df[\"furnished\"])\n    # house facility\n    facility = [\"ac_unit\", \"balcony\", \"yard\", \"security\", \"pool\"]\n    df[facility] = prep_facility(df[facility])\n    # num_floors\n    # df[\"building_land_ratio\"] = df[\"building_size\"] / df[\"land_size\"]\n    df[\"num_floors\"] = calculate_floors(\n        df[\"num_floors\"], df[\"building_size\"] / df[\"land_size\"], df[\"page_url\"]\n    )\n    df = log_transformation(df)\n    df = onehot_encoding(df)\n\n    return df\n",
+  "filepath": "depok-houseprice/src/depok_houseprice_predict/pipelines/data_engineering/nodes.py",
+  "parameters": {},
+  "run_command": "kedro run --to-nodes=preprocess_data",
+  "inputs": [
+    "housedata"
+  ],
+  "outputs": [
+    "preprocessed_housedata"
+  ]
+}
