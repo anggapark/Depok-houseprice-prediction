@@ -62,9 +62,7 @@ def train_model(X_train: pd.DataFrame, y_train: pd.Series) -> LinearRegression:
     return regressor
 
 
-def evaluate_model(
-    regressor: LinearRegression, X_test: pd.DataFrame, y_test: pd.Series
-):
+def predict(regressor: LinearRegression, X_test: pd.DataFrame) -> pd.Series:
     """Calculates and logs the coefficient of determination.
 
     Args:
@@ -73,9 +71,12 @@ def evaluate_model(
         y_test: Testing data for price.
     """
     y_pred = regressor.predict(X_test)
+    return y_pred
+
+
+def evaluate_model(y_pred: pd.Series, y_test: pd.Series):
     score = root_mean_squared_error(y_test, y_pred)
     logger = logging.getLogger(__name__)
     logger.info("Model has a RMSE of %.3f on test data.", score)
 
     return score
-    # logger.info("Model has a coefficient R^2 of %.3f on test data.", score)

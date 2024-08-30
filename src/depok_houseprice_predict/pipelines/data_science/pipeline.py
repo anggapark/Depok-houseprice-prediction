@@ -5,7 +5,7 @@ generated using Kedro 0.19.3
 
 from kedro.pipeline import Pipeline, node, pipeline
 
-from .nodes import split_dataset, train_model, evaluate_model
+from .nodes import split_dataset, train_model, predict, evaluate_model
 
 
 def create_pipeline(**kwargs) -> Pipeline:
@@ -29,8 +29,14 @@ def create_pipeline(**kwargs) -> Pipeline:
                 name="train_model_node",
             ),
             node(
+                func=predict,
+                inputs=["regressor", "X_test"],
+                outputs="y_pred",
+                name="prediction",
+            ),
+            node(
                 func=evaluate_model,
-                inputs=["regressor", "X_test", "y_test"],
+                inputs=["y_pred", "y_test"],
                 outputs="regression_score",
                 name="evaluate_model_node",
             ),
