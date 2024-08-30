@@ -1,0 +1,47 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+
+basichouse:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/depok_houseprice_2024-03-17.parquet
+
+housefeature:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/house_facility_2024-03-17.parquet
+
+houseprice:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/depok_houseprice_merge_2024-03-17.parquet
+
+##################################
+
+housedata:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/merged_depok_houseprice_2024-03-17.csv
+
+preprocessed_housedata:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/preprocessed_housedata.csv
+
+X_train:
+  type: pandas.CSVDataset
+  filepath: data/04_feature/X_train.csv
+
+y_train:
+  type: pandas.CSVDataset
+  filepath: data/04_feature/y_train.csv
+
+X_test:
+  type: pandas.CSVDataset
+  filepath: data/04_feature/X_test.csv
+
+y_test:
+  type: pandas.CSVDataset
+  filepath: data/04_feature/y_test.csv
+
+regressor:
+  type: pickle.PickleDataset
+  filepath: data/06_models/lr_model.pickle
+  versioned: true
