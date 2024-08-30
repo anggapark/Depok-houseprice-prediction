@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np
 from math import ceil
 from scipy.stats import skew
+import pickle
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 
@@ -173,6 +174,11 @@ def onehot_encoding(df: pd.DataFrame) -> pd.DataFrame:
     df_encoded = pd.concat([df, one_hot_df], axis=1)
     # Drop the original categorical columns
     df_encoded = df_encoded.drop(categorical_columns, axis=1)
+
+    # save onehot encoder
+    with open("./data/05_model_input/encoder.pickle", "wb") as f:
+        pickle.dump(encoder, f)
+
     return df_encoded
 
 
@@ -205,33 +211,3 @@ def preprocess_data(df: pd.DataFrame) -> pd.DataFrame:
     df = onehot_encoding(df)
 
     return df
-
-
-# def train_test_split(prep_df: pd.DataFrame):
-#     """Split processed data into train and test sets
-
-#     Args:
-#         prep_df (pd.DataFrame): DataFrame containing the processed house dataset
-
-#     Returns:
-#         Tuple: train data, train labels, test data, and test labels
-#     """
-#     train_df = prep_df.iloc[:6489,]
-#     test_df = prep_df.iloc[6489:,]
-
-#     X_train = train_df.drop(
-#         columns=["price", "categories", "geo_point", "page_url", "parent_url"], axis=1
-#     )
-#     y_train = train_df["price"]
-
-#     X_test = test_df.drop(
-#         columns=["price", "categories", "geo_point", "page_url", "parent_url"], axis=1
-#     )
-#     y_test = test_df["price"]
-
-#     return (
-#         X_train,
-#         y_train,
-#         X_test,
-#         y_test,
-#     )
