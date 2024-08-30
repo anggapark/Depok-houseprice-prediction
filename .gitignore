@@ -149,3 +149,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# custom
+.telemetry
+session_store.db 
+test.ipynb
+stats.json
