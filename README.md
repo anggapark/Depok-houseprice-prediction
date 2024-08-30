@@ -1,4 +1,4 @@
-# depok-houseprice-predict
+# Depok House Price Predictor
 
 ## [Project Documentations](https://github.com/anggapark/Depok-houseprice-prediction/tree/main/docs/source/README.md)
 
