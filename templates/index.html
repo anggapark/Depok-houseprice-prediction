@@ -1,0 +1,187 @@
+<!-- https://github.com/php-crm/Rental_application/blob/main/rental_application.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/static/style.css" />
+    <title>Depok House Price Prediction</title>
+</head>
+<body>
+    <center><h2>Depok House Price Prediction</h2></center>
+    <div>
+        <div class="container1">
+            <form id="userInputPred" action="{{ url_for('predict') }}" method="post">
+                <br />
+                <label for="bedroom">Num. of Bedroom</label>
+                <input type="number" id="bedroom" name="bedroom" required />
+
+                <label for="bathroom">Num. of Bathroom</label>
+                <input type="number" id="bathroom" name="bathroom" required />
+
+                <label for="building_size">Building Size (m&sup2)</label>
+                <input
+                    type="number"
+                    step="0.01"
+                    id="building_size"
+                    name="building_size"
+                    required
+                />
+
+                <label for="land_size">Land Size (m&sup2)</label>
+                <input
+                    type="number"
+                    step="0.01"
+                    id="land_size"
+                    name="land_size"
+                    required
+                />
+
+                <label for="num_floors">Num. of Floors</label>
+                <input type="number" id="num_floors" name="num_floors" required />
+
+                <label for="subcategories">House Subcategories</label>
+                <select name="subcategories" id="subcategories">
+                    <option value="house">House</option>
+                    <option value="boarding-house">Boarding House</option>
+                    <option value="single-family-house">Single-Family House</option>
+                    <option value="subsidized-house">Subsidized House</option>
+                    <option value="townhouse">Townhouse</option>
+                    <option value="villa">Villa</option>
+                </select>
+
+                <label for="furnished">Furnished?</label>
+                <select name="furnished" id="furnished">
+                    <option value="yes">Yes</option>
+                    <option value="semi">Semi</option>
+                    <option value="no">No</option>
+                </select>
+
+                <label for="location">Location</label>
+                <select name="location" id="location">
+                    <option value="beji">Beji</option>
+                    <option value="cilodong">Cilodong</option>
+                    <option value="cimanggis">cimanggis</option>
+                    <option value="cinere">Cinere</option>
+                    <option value="cipayung">Cipayung</option>
+                    <option value="citayam">Citayam</option>
+                    <option value="limo">Limo</option>
+                    <option value="pancoran mas">Pancoran Mas</option>
+                    <option value="sawangan">Sawangan</option>
+                    <option value="sukmajaya">Sukmajaya</option>
+                </select>
+
+                <h4>House Facility</h4>
+                <hr />
+
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="ac_unit">AC Unit</label><br />
+                            <input
+                                type="radio"
+                                id="ac_unit_true"
+                                name="ac_unit"
+                                value="true"
+                                style="margin-left: 13px"
+                                checked
+                            />&nbspYes<label for="ac_unit_true"></label><br />
+                            <input
+                                type="radio"
+                                id="ac_unit_false"
+                                name="ac_unit"
+                                value="false"
+                                style="margin-left: 13px"
+                            />&nbspNo<label for="ac_unit_false"></label><br /><br />
+                        </div>
+                        <div class="col-25">
+                            <label for="balcony">Balcony</label><br />
+                            <input
+                                type="radio"
+                                id="balcony_true"
+                                name="balcony"
+                                value="true"
+                                style="margin-left: 13px"
+                                checked
+                            />&nbspYes<label for="balcony_true"></label><br />
+                            <input
+                                type="radio"
+                                id="balcony_false"
+                                name="balcony"
+                                value="false"
+                                style="margin-left: 13px"
+                            />&nbspNo<label for="balcony_false"></label><br /><br />
+                        </div>
+                        <div class="col-25">
+                            <label for="yard">Yard</label><br />
+                            <input
+                                type="radio"
+                                id="yard_true"
+                                name="yard"
+                                value="true"
+                                style="margin-left: 13px"
+                                checked
+                            />&nbspYes<label for="yard_true"></label><br />
+                            <input
+                                type="radio"
+                                id="yard_false"
+                                name="yard"
+                                value="false"
+                                style="margin-left: 13px"
+                            />&nbspNo<label for="yard_false"></label><br /><br />
+                        </div>
+                        <div class="col-25">
+                            <label for="security">Security</label><br />
+                            <input
+                                type="radio"
+                                id="security_true"
+                                name="security"
+                                value="true"
+                                style="margin-left: 13px"
+                                checked
+                            />&nbspYes<label for="security_true"></label><br />
+                            <input
+                                type="radio"
+                                id="security_false"
+                                name="security"
+                                value="false"
+                                style="margin-left: 13px"
+                            />&nbspNo<label for="security_false"></label><br /><br />
+                        </div>
+                        <div class="col-25">
+                            <label for="pool">Pool</label><br />
+                            <input
+                                type="radio"
+                                id="pool_true"
+                                name="pool"
+                                value="true"
+                                style="margin-left: 13px"
+                                checked
+                            />&nbspYes<label for="pool_true"></label><br />
+                            <input
+                                type="radio"
+                                id="pool_false"
+                                name="pool"
+                                value="false"
+                                style="margin-left: 13px"
+                            />&nbspNo<label for="pool_false"></label><br /><br />
+                        </div>
+                    </div>
+                    <input type="submit" value="Submit" class="btn">
+                </div>
+            </form>
+            {% if prediction_text %}
+                <h3>{{ prediction_text }}</h3>
+            {% endif %}
+        </div>
+    </div>
+    <script>
+        document.getElementById('userInputPred').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var form = this;
+            var action = form.getAttribute('action');
+            form.action = action;
+            form.submit();
+        });
+    </script>
+</body>
+</html>
