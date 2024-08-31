@@ -11,12 +11,12 @@ app = Flask(__name__)
 
 # Load model
 with open(
-    "./data/07_models_output/lr_model.pickle", "rb"
+    "./data/07_model_output/lr_model.pickle", "rb"
 ) as f:
     model = pickle.load(f)
 
 # load onehot encoder
-with open("./data/05_model_input/encoder.pickle", "rb") as e:
+with open("./data/07_model_output/lr_model.pickle", "rb") as e:
     encoder = pickle.load(e)
 
 # preprocess function
@@ -128,3 +128,5 @@ def predict():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
+
+
