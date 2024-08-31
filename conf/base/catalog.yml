@@ -44,4 +44,4 @@ y_test:
 regressor:
   type: pickle.PickleDataset
   filepath: data/06_models/lr_model.pickle
-  versioned: true
+  versioned: false
