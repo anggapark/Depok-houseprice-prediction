@@ -13,6 +13,10 @@ This project aims to build a model that will be able to predict house prices in 
 - Features/factors that have the most influence on house prices.
 - Areas in Depok City that have the most expensive house prices.
 
+## Project Workflow
+
+![kedro_pipeline](https://github.com/anggapark/Depok-houseprice-prediction/blob/main/asset/kedro-pipeline.png?raw=true)
+
 ## Web Scraping
 
 The data was obtained through web scraping the website www.lamudi.co.id in ~~January 2023~~ March 2024 using the selenium library. The scraped data consists of 8113 houses in Depok City, from each house data, the following features are obtained:
