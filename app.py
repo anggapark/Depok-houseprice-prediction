@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 # Load model
 with open(
-    "./data/06_models/lr_model.pickle", "rb"
+    "./data/07_models_output/lr_model.pickle", "rb"
 ) as f:
     model = pickle.load(f)
 
