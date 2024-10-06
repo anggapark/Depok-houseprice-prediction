@@ -6,19 +6,14 @@ generated using Kedro 0.19.3
 import logging
 from typing import Dict, Tuple, Any
 import pandas as pd
+import numpy as np
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import root_mean_squared_error
 
 # from sklearn.pipeline import Pipeline
 # from sklearn.compose import ColumnTransformer
-
-from sklearn.linear_model import RANSACRegressor, LinearRegression, Ridge, Lasso
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import (
-    mean_squared_error,
-    mean_absolute_error,
-    root_mean_squared_error,
-    r2_score,
-)
+# from sklearn.linear_model import RANSACRegressor, LinearRegression, Ridge, Lasso
 
 
 def split_dataset(data: pd.DataFrame) -> Tuple:
@@ -47,7 +42,7 @@ def split_dataset(data: pd.DataFrame) -> Tuple:
     )
 
 
-def train_model(X_train: pd.DataFrame, y_train: pd.Series) -> LinearRegression:
+def train_model(X_train: pd.DataFrame, y_train: pd.Series) -> RandomForestRegressor:
     """Trains the linear regression model.
 
     Args:
@@ -57,12 +52,12 @@ def train_model(X_train: pd.DataFrame, y_train: pd.Series) -> LinearRegression:
     Returns:
         Trained model.
     """
-    regressor = LinearRegression()
-    regressor.fit(X_train, y_train)
+    regressor = RandomForestRegressor()
+    regressor.fit(X_train, np.ravel(y_train))
     return regressor
 
 
-def predict(regressor: LinearRegression, X_test: pd.DataFrame) -> pd.Series:
+def predict(regressor: RandomForestRegressor, X_test: pd.DataFrame) -> pd.Series:
     """Calculates and logs the coefficient of determination.
 
     Args:
@@ -75,6 +70,15 @@ def predict(regressor: LinearRegression, X_test: pd.DataFrame) -> pd.Series:
 
 
 def evaluate_model(y_pred: pd.Series, y_test: pd.Series):
+    """Evaluate predicted model with ground truth label
+
+    Args:
+        y_pred (pd.Series): Predicted result from trained model
+        y_test (pd.Series): Ground truth label
+
+    Returns:
+        score: _description_
+    """
     score = root_mean_squared_error(y_test, y_pred)
     logger = logging.getLogger(__name__)
     logger.info("Model has a RMSE of %.3f on test data.", score)
