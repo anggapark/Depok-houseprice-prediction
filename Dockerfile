@@ -24,4 +24,4 @@ COPY --chown=${KEDRO_UID}:${KEDRO_GID} . .
 
 EXPOSE 5000
 
-CMD ["flask", "run"]
+CMD ["flask", "run", "--host=0.0.0.0"]
